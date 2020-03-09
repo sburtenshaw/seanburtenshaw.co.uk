@@ -4,7 +4,9 @@
   "description": "Sean Burtenshaw's personal website",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "pm2 start server.js",
+    "stop": "pm2 stop server",
+    "restart": "pm2 restart server"
   },
   "author": "Sean Burtenshaw",
   "license": "ISC",
